@@ -9,6 +9,7 @@ public class Client extends Utilisateur{
     private int Age;
     private int[] LesFavoris;
 	
+/test
     public Client(String nom, String prenom, int age) {
         super(genererUser(),genererPassword());
         idClient++;
